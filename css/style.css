@@ -1,0 +1,57 @@
+*{
+	padding: 	0;
+	margin: 	0;
+}
+
+body{
+	background-color: grey;
+}
+
+#main{
+	width: 		700px;
+	margin: 	0 auto;
+}
+
+h1{
+	margin-left: 10px;
+}
+
+#title{
+	height: 35px;
+	line-height: 35px;
+	background-color: red;
+}
+
+h3{
+	margin-left: 10px;
+	display: inline;
+}
+
+#body{
+	background-color: white;
+}
+
+#body div{
+	width: 690px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+#body div p{
+	display: inline;
+}
+
+#body div input{
+	float: right;
+	margin-right: 10px
+}
+
+h2{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+#body form{
+	padding-bottom: 30px;
+}
