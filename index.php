@@ -11,7 +11,9 @@
 		<div id="title">
 			<h3><a class="active" href="index.php">Er heerst paniek...</a></h3>	<h3><a href="onkunde.php">Onkunde</a></h3>
 		</div>
+
 		<?php if ($_SERVER["REQUEST_METHOD"] != "POST") { ?>
+
 		<div class="body">
 			<h2>Er heerst paniek...</h2>
 				<form name="form1" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
@@ -25,8 +27,10 @@
 					<div><p>Wat is je favoriete bezigheid?</p><input type="text" name="favorite"></div>
 					<div><input type="submit" value="Versturen"></div>
 				</form>
-		</div><?php } else{ ?>
-			
+		</div>
+
+		<?php } else{ ?>
+
 		<div class="body formuitslag">
 				<h2>Er heerst paniek...</h2>
 				<p>Er heerst paniek in het koningkrijk <?php echo $_POST["house"]; ?>. Koning Egmond is ten einde raad en als koning Egmond ten einde raad is, dan roept hij zijn ten-einde-raadsheer <?php echo $_POST["person"]; ?>.</p>
@@ -38,9 +42,10 @@
 				<p>"Maar Sire, daar kunt u toch uw <?php echo $_POST["rich"]; ?> voor gebruiken?"</p>
 				<p>"<?php echo $_POST["person"]; ?>, je hebt helemaal gelijk! Wat zou ik doen als ik jou niet had."</p>
 				<p>"<?php echo $_POST["bored"]; ?>, Sire."</p>
-			
+
 				<?php } ?>
 				<?php include "include/footer.php"; ?>
+				
 		</div>
 </body>
 </html>
