@@ -12,8 +12,11 @@ body{
 	margin: 	0 auto;
 }
 
-h1{
-	margin-left: 10px;
+#hoofd{
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-size: 100px;
+	margin: 25px 0px 25px 10px;
 }
 
 #title{
